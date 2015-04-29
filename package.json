@@ -1,0 +1,25 @@
+{
+  "author": "Trubnikov-Panov Egor <egor.a.trubnikov@yandex.ru>",
+  "description": "Template engine. BTRJSON to HTML processor.",
+  "name": "btr",
+  "version": "1.0.0",
+  "repository": "https://github.com/egor-a-trubnikov-panov/btr",
+  "licence": "MIT",
+  "devDependencies": {
+    "mocha": "2.2.x",
+    "chai": "2.x",
+    "istanbul": "0.3.x",
+    "jshint": "2.x",
+    "jscs": "1.11.x"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "npm run-script jshint && npm run-script check-style && npm run-script unit-test-coverage",
+    "jshint": "./node_modules/.bin/jshint .",
+    "unit-test": "./node_modules/.bin/mocha -u bdd -R spec --recursive test",
+    "unit-test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -u bdd -R spec --recursive test",
+    "check-style": "./node_modules/jscs/bin/jscs ."
+  }
+}

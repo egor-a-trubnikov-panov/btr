@@ -1,0 +1,7 @@
+test
+.travis.yml
+.jshintrc
+.editorconfig
+node_modules
+.idea
+coverage
