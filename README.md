@@ -14,7 +14,7 @@ It was founded at the [bh](https://github.com/enb-make/bh)
 3. based on JavaScript (usage and extensions);
 4. easy to understand – it is a wrapper over a regular conversion of source BTRJSON to output BTRJSON / HTML;
 5. compact on client side;
-6. Designed for use with vDOM
+6. Designed for use with [vDOM](https://github.com/egor-a-trubnikov-panov/vDOM)
 
 ## Install
 
